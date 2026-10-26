@@ -1,0 +1,646 @@
+@media (max-width: 767px) {
+    .about-section {
+    position: relative;
+    padding: 140px 35px;
+    background: #47111194;
+    color: #ffffff;
+}
+}
+
+@media (max-width: 768px) {
+    #contact-heading {
+        height: 200px;
+    }
+
+    #contact-heading .heading h2 {
+        font-size: 36px;
+    }
+}
+@media (max-width: 575px) {
+#about-us-infomation .about-info2 img{
+margin-left: 10px;
+}}
+
+/* Responsive */
+@media(max-width:900px){
+
+    .mission-vision{
+        min-height:1000px;
+    }
+
+    .title{
+        font-size:30px;
+    }
+
+    .center-image{
+        width:230px;
+        height:230px;
+    }
+
+    .content-area{
+        flex-direction:column;
+        align-items:center;
+        gap:70px;
+        margin-top:330px;
+    }
+
+    .info-box{
+        width:85%;
+    }
+
+    .center-space{
+        display:none;
+    }
+
+    .mission:after,
+    .vision:before{
+        display:none;
+    }
+}
+
+
+@media (max-width: 675px) {
+.process {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 48px;
+    border-top: 1px solid var(--line);
+    
+}
+}
+@media (max-width: 675px) {
+.nav-appointment{
+    display: none;
+}
+}
+@media (max-width: 675px) {
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;}
+    .gallery-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+}
+
+/* respon */
+/* =========================================================
+   TABLET RESPONSIVE
+========================================================= */
+
+@media screen and (max-width: 992px) {
+    .jj-section {
+        padding: 60px 20px;
+    }
+
+    .jj-cap-grid {
+        grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+        gap: 40px;
+    }
+
+    .jj-cap-photo {
+        width: 100%;
+        height: 550px;
+    }
+
+    .jj-cap-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .jj-cap-grid h2 {
+        font-size: 40px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE RESPONSIVE
+========================================================= */
+
+@media screen and (max-width: 767px) {
+    .jj-section {
+        padding: 50px 16px;
+        overflow: hidden;
+    }
+
+    .jj-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .jj-cap-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 35px;
+    }
+
+    .jj-cap-photo {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 5;
+        overflow: hidden;
+    }
+
+    .jj-cap-photo img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .jj-cap-grid > div:last-child {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .jj-kicker {
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+
+    .jj-cap-grid h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 34px;
+        line-height: 1.15;
+        overflow-wrap: break-word;
+    }
+
+    .jj-cap-list {
+        width: 100%;
+    }
+
+    .jj-cap {
+        display: grid;
+        grid-template-columns: 40px minmax(0, 1fr);
+        gap: 14px;
+        padding: 20px 0;
+    }
+
+    .jj-cap h3 {
+        margin-top: 0;
+        margin-bottom: 7px;
+        font-size: 17px;
+    }
+
+    .jj-cap p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.6;
+        overflow-wrap: break-word;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE RESPONSIVE
+========================================================= */
+
+@media screen and (max-width: 480px) {
+    .jj-section {
+        padding: 40px 13px;
+    }
+
+    .jj-cap-grid {
+        gap: 30px;
+    }
+
+    .jj-cap-photo {
+        width: 100%;
+        aspect-ratio: 4 / 5;
+    }
+
+    .jj-cap-grid h2 {
+        font-size: 29px;
+    }
+
+    .jj-cap {
+        grid-template-columns: 32px minmax(0, 1fr);
+        gap: 10px;
+        padding: 18px 0;
+    }
+
+    .jj-cap > span {
+        font-size: 12px;
+    }
+
+    .jj-cap h3 {
+        font-size: 16px;
+    }
+
+    .jj-cap p {
+        font-size: 13px;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL DEVICES
+========================================================= */
+
+@media screen and (max-width: 350px) {
+    .jj-section {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .jj-cap-grid h2 {
+        font-size: 26px;
+    }
+
+    .jj-cap {
+        grid-template-columns: 28px minmax(0, 1fr);
+        gap: 8px;
+    }
+}
+
+/* =========================================================
+   TABLET RESPONSIVE — 992PX AND BELOW
+========================================================= */
+
+@media screen and (max-width: 992px) {
+
+    .jj-section,
+    .jj-cta {
+        padding: 65px 20px;
+    }
+
+    .jj-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* PRODUCT SPECIFICATIONS */
+
+    .jj-spec-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 45px;
+    }
+
+    .jj-spec-grid h2 {
+        font-size: 40px;
+        line-height: 1.15;
+    }
+
+    .jj-sizes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    /* HOW IT WORKS */
+
+    .jj-process {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .jj-step {
+        min-width: 0;
+    }
+
+
+    /* BUYERS */
+
+    .jj-buyer-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+
+    /* CTA FORM */
+
+    .jj-cta-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 45px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE RESPONSIVE — 767PX AND BELOW
+========================================================= */
+
+@media screen and (max-width: 767px) {
+
+    .jj-section,
+    .jj-cta {
+        width: 100%;
+        padding: 50px 16px;
+        overflow: hidden;
+    }
+
+    .jj-container {
+        width: 100%;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .jj-section h2,
+    .jj-cta h2 {
+        margin-top: 0;
+        font-size: 34px;
+        line-height: 1.15;
+        overflow-wrap: break-word;
+    }
+
+    .jj-kicker {
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+
+    .jj-copy {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* PRODUCT SPECIFICATIONS */
+
+    .jj-spec-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    .jj-sizes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+        margin-top: 25px;
+    }
+
+    .jj-sizes span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 44px;
+        min-height: 44px;
+        padding: 8px 10px;
+    }
+
+    .jj-spec-table {
+        width: 100%;
+    }
+
+    .jj-spec-row {
+        display: grid;
+        grid-template-columns: minmax(100px, 0.8fr) minmax(0, 1.2fr);
+        align-items: start;
+        gap: 15px;
+        width: 100%;
+        padding: 18px 0;
+    }
+
+    .jj-spec-row span,
+    .jj-spec-row strong {
+        overflow-wrap: anywhere;
+    }
+
+    .jj-spec-row span {
+        font-size: 13px;
+    }
+
+    .jj-spec-row strong {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    /* HOW IT WORKS */
+
+    .jj-process {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 30px;
+    }
+
+    .jj-step {
+        width: 100%;
+        min-width: 0;
+        padding: 22px 18px;
+    }
+
+    .jj-step h3 {
+        margin: 12px 0 8px;
+        font-size: 17px;
+    }
+
+    .jj-step p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 1.6;
+        overflow-wrap: break-word;
+    }
+
+
+    /* WHO WE WORK WITH */
+
+    .jj-buyer-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 30px;
+    }
+
+    .jj-buyer {
+        width: 100%;
+        min-width: 0;
+        padding: 22px 18px;
+    }
+
+    .jj-buyer h3 {
+        margin: 12px 0 8px;
+        font-size: 17px;
+    }
+
+    .jj-buyer p {
+        margin: 0;
+        font-size: 13px;
+        line-height: 1.6;
+        overflow-wrap: break-word;
+    }
+
+
+    /* CTA SECTION */
+
+    .jj-cta-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .jj-cta-grid > div,
+    .jj-form {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .jj-cta-grid > div > p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .jj-service {
+        line-height: 1.7;
+        overflow-wrap: break-word;
+    }
+
+    .jj-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jj-form label {
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+
+    .jj-form input,
+    .jj-form select {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        height: 50px;
+        margin-bottom: 18px;
+        padding: 0 14px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .jj-form .jj-btn {
+        width: 100%;
+        min-height: 52px;
+        padding: 14px 18px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE — 480PX AND BELOW
+========================================================= */
+
+@media screen and (max-width: 480px) {
+
+    .jj-section,
+    .jj-cta {
+        padding: 42px 13px;
+    }
+
+    .jj-section h2,
+    .jj-cta h2 {
+        font-size: 29px;
+    }
+
+
+    /* SPECIFICATION ROWS */
+
+    .jj-spec-row {
+        grid-template-columns: 95px minmax(0, 1fr);
+        gap: 10px;
+        padding: 16px 0;
+    }
+
+    .jj-spec-row span {
+        font-size: 12px;
+    }
+
+    .jj-spec-row strong {
+        font-size: 13px;
+    }
+
+    .jj-sizes span {
+        min-width: 40px;
+        min-height: 40px;
+        font-size: 12px;
+    }
+
+
+    /* PROCESS — ONE CARD PER ROW */
+
+    .jj-process {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .jj-step {
+        padding: 20px 16px;
+    }
+
+
+    /* BUYERS — ONE CARD PER ROW */
+
+    .jj-buyer-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .jj-buyer {
+        padding: 20px 16px;
+    }
+
+
+    /* FORM */
+
+    .jj-cta-grid {
+        gap: 32px;
+    }
+
+    .jj-form input,
+    .jj-form select {
+        height: 48px;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL DEVICES — 350PX AND BELOW
+========================================================= */
+
+@media screen and (max-width: 350px) {
+
+    .jj-section,
+    .jj-cta {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .jj-section h2,
+    .jj-cta h2 {
+        font-size: 26px;
+    }
+
+    .jj-spec-row {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .jj-sizes {
+        gap: 7px;
+    }
+
+    .jj-sizes span {
+        min-width: 37px;
+        min-height: 37px;
+        padding: 6px;
+    }
+}
